@@ -5,7 +5,7 @@ function setup() {
   p5Canvas = createCanvas(800, 600);
   p5Canvas.parent("#p5-canvas");
   myName = select("#my-name");
-  myName.html("[Your Name Here]"); // enter your name here!
+  myName.html("Carlos"); // enter your name here!
 }
 
  /*
@@ -26,6 +26,12 @@ function draw() {
   fill('white');    // Always call fill() before the shape you want to fill in.
   ellipse(400, 400, 150, 150);
   ellipse(400, 300, 100, 100);
-  ellipse(400, 2500, 75, 75);
-
+  ellipse(400, 220, 75, 75);
+  fill(12,246,207);
+  rect(0,475,900,200);
+  fill('white');
+  line(450,300,500,250);
+  line(350,300,300,250);
+  fill('black');
+  ellipse()
 }
