@@ -1,6 +1,7 @@
 var p5Canvas;
 var myName;
 
+
 function setup() {
   p5Canvas = createCanvas(800, 600);
   p5Canvas.parent("#p5-canvas");
@@ -20,9 +21,10 @@ function setup() {
  */
 
 // Write all your code inside the draw() function below!
+
 function draw() {
   // Example. You can remove when you're ready!
-  background('blue'); // try changing this to a blue background
+  background(0,0,255); // try changing this to a blue background
   fill('white');    // Always call fill() before the shape you want to fill in.
   ellipse(400, 400, 150, 150);
   ellipse(400, 300, 100, 100);
@@ -33,5 +35,5 @@ function draw() {
   line(450,300,500,250);
   line(350,300,300,250);
   fill('black');
-  ellipse()
+
 }
